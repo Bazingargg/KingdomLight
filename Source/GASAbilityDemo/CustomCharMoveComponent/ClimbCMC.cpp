@@ -302,6 +302,7 @@ void UClimbCMC::ComputeSurfaceInfo()
 
 bool UClimbCMC::ShouldStopClimbing() const
 {
+	// TopSurface.
 	const bool bIsOnCeiling = FVector::Parallel(CurrentClimbingNormal, FVector::UpVector);
 
 	// ceiling cannot climb 判断Climb墙面法线是否与天花板平行，默认攀爬不能爬天花板.
