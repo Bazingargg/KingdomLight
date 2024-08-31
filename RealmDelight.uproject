@@ -308,6 +308,14 @@
 				"Win64",
 				"Android"
 			]
+		},
+		{
+			"Name": "MoverExamples",
+			"Enabled": true
+		},
+		{
+			"Name": "MoverTests",
+			"Enabled": true
 		}
 	]
 }
